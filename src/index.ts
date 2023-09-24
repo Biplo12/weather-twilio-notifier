@@ -9,9 +9,9 @@ import {
   WEATHER_API_KEY,
   CITY,
   PHONE_NUMBER,
-} from "./constants";
+} from "../utils/constants";
 import cronJob from "cron";
-import weatherMessage from "./weatherMessage";
+import weatherMessage from "../utils/weatherMessage";
 
 dotenv.config();
 
